@@ -1,0 +1,105 @@
+.background-img {
+  background: url(./assets/img/bg.png) no-repeat;
+  
+  min-height: 300px;
+  background-size: 100% 100%;
+  margin: 0 auto;
+}
+.footer-bg {
+  background: url(./assets/img/bg.png) no-repeat;
+  height: 15vh;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #EEF7FF;
+  min-width: 500px;
+  min-height: 100vh;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+h1 {
+  font-family: "Alegreya Sans SC", sans-serif;
+  color: #bc7fcd;
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+h1::first-letter {
+  color: cadetblue;
+}
+
+h2 {
+  font-family: "Alegreya Sans SC", sans-serif;
+  color: #b278c2de;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Alegreya Sans SC", sans-serif;
+  color: #b278c2de;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+li,
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.container > div > img {
+  margin: 4rem auto;
+  border-radius: 50%;
+  border: solid 3px cadetblue;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0;
+  margin: 2rem;
+  line-height: 2;
+}
+
+.experience > h2 {
+  margin: 1.5rem;
+}
+.experience > ul {  
+  line-height: 0.5;
+}
+
+hr {
+  width: 100vw;
+}
+
+div {
+  text-align: center;
+}
+.hobbies > div {
+  width: 75%;
+}
+
+.footer-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer p {
+  color: #bc7fcd;
+  margin: 0;
+  font-style: italic;
+}
+
