@@ -16,6 +16,8 @@ body {
   min-width: 500px;
   min-height: 100vh;
   margin: 0;
+  color:#028391;
+  font-size: 18px;
 }
 .container {
   display: flex;
@@ -87,10 +89,11 @@ div {
 .footer-div {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 30px;
 }
 footer p {
-  color: #bc7fcd;
+  color:#028391;
   margin: 0;
   font-family: "Alegreya Sans SC", sans-serif;
 }
@@ -150,6 +153,10 @@ footer p {
 
 }
 
+.navbar a,.hobbies-inner a {
+  text-decoration: none;
+  color: cadetblue;
+}
 .navbar {
   display: flex;
   gap: 30px;
@@ -159,13 +166,15 @@ footer p {
   font-size:larger;
   font-family: "Alegreya Sans SC", sans-serif;
   
-
 }
 
-a {
+.projects a{
   text-decoration: none;
-  color: cadetblue;
+  color:#028391;
 }
+
+
+
 
 @media (max-width: 970px) {
   .row-container{
