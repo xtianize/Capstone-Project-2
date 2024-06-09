@@ -33,11 +33,18 @@
         </div>
       </section>
     </header>
+    <nav>
+      <div class="navbar">
+        <div><a href="#skills">Home</a></div>
+        <div><a href="#about">About</a></div>
+        <div><a href="#contact">Contact</a></div>
+      </div>
+    </nav>
     <main>
       <section id="skills">
         <div class="container">
           <div>
-            <img src="./assets/img/prof id.jpeg" alt="my photo" height="200" />
+            <img class="profpic"   src="./assets/img/prof id.jpeg" alt="my photo" height="200" />
           </div>
           <!-- education,work experience -->
           <div class="education">
@@ -54,11 +61,11 @@
               Education:
             </h2>
             <p>Computer Science Associate [2006-2009] at AICS College</p>
-            <hr />
+            </div>
           </div>
-
+          <div class="row-container">
           <div class="experience">
-            <h2>
+            <div><h2>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="24px"
@@ -69,8 +76,8 @@
                   d="M160-120q-33 0-56.5-23.5T80-200v-440q0-33 23.5-56.5T160-720h160v-80q0-33 23.5-56.5T400-880h160q33 0 56.5 23.5T640-800v80h160q33 0 56.5 23.5T880-640v440q0 33-23.5 56.5T800-120H160Zm0-80h640v-440H160v440Zm240-520h160v-80H400v80ZM160-200v-440 440Z" />
               </svg>
               Work Experience:
-            </h2>
-            <ul>
+            </h2></div>
+            <div><ul>
               <li><h4>Jemstar Trading Corporation</h4></li>
               <p>Position: Accounting Officer (2012-present)</p>
               <li><h4>JoToCo Corporation</h4></li>
@@ -78,7 +85,8 @@
               <li><h4>PNI-KMPG Inc.</h4></li>
               <p>Position: Outbound Sales Agent (2009)</p>
             </ul>
-            <hr />
+            </div>
+            
           </div>
 
           <div class="skills">
@@ -94,20 +102,15 @@
               </svg>
               Skills:
             </h2>
-            <ul>
-              <li>Microsoft Applications(MS Word, Excel, Powerpoint)</li>
+            <ul>              
               <li>Video and Photo Editing</li>
               <li>Front End Web Development</li>
               <li>Entry level Java Programming</li>
             </ul>
-            <hr />
-          </div>
-        </div>
-      </section>
-      <section id="projects">
-        <!-- projects -->
-        <div>
-          <h2>
+            
+          </div> 
+          <div class="projects">
+          <div><h2>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="24px"
@@ -118,12 +121,23 @@
                 d="m384-336 56-57-87-87 87-87-56-57-144 144 144 144Zm192 0 144-144-144-144-56 57 87 87-87 87 56 57ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z" />
             </svg>
             Projects:
-          </h2>
-          <hr />
-        </div>
+          </h2>          
+            </div>
+            <div>
+              <p><a href="https://github.com/xtianize/mondrianArt.git">Mondrian Painting</a></p>
+              <p><a href="https://github.com/xtianize/tindog.git">Tindog Project</a></p>
+              <p><a href="https://github.com/xtianize/Java-Projects.git">Java Program: Amount in Words</a></p>
+            </div>
+          </div>
+      </section>
+    
+        <!-- projects -->
+       
 
         <!-- to update -->
-      </section>
+      
+    </div>
+
       <section id="about">
         <!-- about me -->
         <div class="container hobbies">
@@ -140,44 +154,42 @@
               </svg>
               Hobbies:
             </h2>
-          </div>
-          <div>
             <h3>
-              Aside from coding, I really find these activities entertaining and
+              Aside from coding, I really find these activities really entertaining and
               fun 😄
             </h3>
           </div>
-          <div>
-            <ul>
-              <li>
-                <h4>Guitar Playing</h4>
-                - As a music lover, playing instrument becomes a natural hobby.
-                For me, there’s a difference between a record and an actual live
-                music(I’m not a part of a band though). Live music is more
-                engaging and you can hear the instruments in their purest form.
-              </li>
-              <li>
-                <h4>Hiking</h4>
-                - I'm also a nature lover. Even though I'm an introvert I enjoy
-                hanging out with people with the same interests as me. Sometimes
-                I join hiking events that fits my schedule and budget.
-              </li>
-              <li>
-                <h4>Listening to Music</h4>
-                - During my free time, I listen to music to free my mind and
-                appreciate the little things in life. <br />
-                Check out my playlist at:
-                <a
-                  href="https://music.apple.com/profile/xtianize"
-                  target="_blank"
-                  >My Apple Playlist</a
-                >
-              </li>
-            </ul>
+          <div class="row-container">
+            <div class="hobbies-inner container">
+              <div class="container"><h4>Guitar Playing</h4></div>
+              <div><img src="./assets/img/guitarplaying.jpg" alt="playing a guitar" height="100px" style="float: left;"></div>
+              <div>As a music lover, playing instrument becomes a natural hobby.
+               Live music is more
+              engaging and you can hear the instruments in their purest form.</div>
+               </div>
+            <div class="hobbies-inner container"><div><h4>Hiking</h4></div>
+              <div><img src="./assets/img/hiking.jpg" alt="hiking"></div>
+              <div>I'm also a nature lover. Even though I'm an introvert I enjoy
+              hanging out with people with the same interests as me. Sometimes
+              I join hiking events that fits my schedule and budget.</div>
+               </div>
+            <div class="hobbies-inner container"><div><h4>Listening to Music</h4></div>
+              <div><img src="./assets/img/music.jpg" alt="enjoying music"></div> 
+              <div>During my free time, I listen to music to free my mind and
+              appreciate the little things in life.
+              Check out my playlist at:
+              <a
+                href="https://music.apple.com/profile/xtianize"
+                target="_blank"
+                >My Apple Playlist</a
+              ></div></div>
           </div>
         </div>
+        
+          
+        
       </section>
-      <hr />
+      
     </main>
     <section id="contact">
       <div>
